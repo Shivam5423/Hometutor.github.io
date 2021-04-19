@@ -1,0 +1,42 @@
+.header{
+min-height: 60px;
+background-color:pink;
+}
+.sitename
+{
+    font-size:45px;
+    text-align:center;
+    color:navy;
+    padding-top:25px;
+    font-family:sans-serif;
+    font-weight:bold;
+    
+}
+.main{
+    min-height:500px;
+    background-color:silver;
+    padding: 0px;
+}
+.logo
+{
+    background-color:pink;
+    padding:0px;
+    margin:0px;
+}
+.my
+{
+    background-color:maroon;
+    color:green;
+    min-height:30px;
+}
+.mylinks
+{
+    color:green;
+    padding-left:30px;
+    font-size:20px;
+}
+.news
+{
+    background-color:lightgreen;
+    min-height: 70px;
+}

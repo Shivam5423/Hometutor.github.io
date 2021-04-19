@@ -1,0 +1,51 @@
+<div class="row header">
+    
+    <div class="col-sm-2 logo"  style="padding:0px; margin: 0px;">
+        
+       <img src="images/logo.png" class="img-responsive" style="width:100%;height:175px;"/>
+       
+    </div>
+    <div class="col-sm-10 sitename" style="background-color: #0084ff;">
+        Home Tutors (P.)Ltd.Chitrakoot (U.P.),India 
+        <p class="text-right" style="font-size:30px; padding-right:20px;font-family:cursive;color:white">
+            Tutors @ Your Doorsteps
+        </p>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 my" style="margin:0px;padding:0px; background-color:cyan;">
+   <nav class="navbar navbar-inverse" style="padding:0px; margin:0px; color: red ;">
+       <div class="container-fluid">
+      
+    <ul class="nav navbar-nav">
+      <li class="active"><a class="mylinks" href="index.jsp">Home</a></li>
+      <li><a  class="mylinks" href="aboutus.jsp">About Us</a></li>
+      <li><a  class="mylinks" href="review.jsp">Student Review</a></li>
+       <li><a  class="mylinks" href="contactus.jsp">Contact Us</a></li>
+       <li><a  class="mylinks" href="StudyMaterial.jsp">Study Material</a></li>
+       
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a  class="mylinks" href="register.jsp"><span class="glyphicon glyphicon-user"></span> Tutors Sign up</a></li>
+      <li><a class="mylinks" href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>     
+    </div> 
+</div>
+
+    <script>
+    $(document).ready(function () {
+        $(".my a").addClass("mylinks");
+        $(".my a").css("color", "white");
+        $(".my a").hover(function () {
+            $(this).css("background-color", "cyan");
+        });
+        $(".my a").mouseout(function () {
+            $(this).css("background-color", "");
+        });
+    });
+</script>
+    
+    
